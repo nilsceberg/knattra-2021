@@ -7,5 +7,5 @@
 3. **Evil Witch**: string alignment; Levenshtein
 4. **Ghosts in a Graveyard**: graph coloring; BFS solution (NP-hard)
 5. **Tourist in the Spirit Realm**: path-finding; Dijkstra
-6. **Trick or Treat**: Travelling Salesman (NP-hard); genetic algorithm
+6. **Trick or Treat**: Travelling Salesman (NP-cringe); genetic algorithm
 7. **Stranger Danger**: exploited the fact that each number can be used more than once
