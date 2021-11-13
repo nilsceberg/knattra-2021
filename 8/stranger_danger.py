@@ -1,6 +1,4 @@
-import json
-import math
-
+import json, math
 with open("souls.json") as file:
   data = json.load(file)
   min = 2147483647
@@ -14,8 +12,5 @@ with open("souls.json") as file:
         print(lmao)
         print(yeet)
         print(n + n_2)
-        
-  print(min)
-  print(lmao)
-  print(yeet)
 
+  print(str(min), str(lmao), str(yeet))
