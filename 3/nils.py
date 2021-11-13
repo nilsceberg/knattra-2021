@@ -4,7 +4,7 @@ line = json.load(open("waitingSpirits.json"))
 
 def can_see(line, i, j):
     for x in range(i+1, j):
-        if line[x] >= line[i] or line[x] >= line[j]:
+        if line[x] > line[i] or line[x] >= line[j]:
             return False
     return True
 
