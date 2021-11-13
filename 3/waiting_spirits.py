@@ -5,9 +5,12 @@ with open("waitingSpirits.json") as file:
   res = []
   for i, height in enumerate(data):
     sight = 0
-    for later_height in data[i+1:]:
-      if height > later_height:
-        sight+=1
+    later = []
+    for new_h in data[i+1:]:
+      later.append(new_h)
+      if height > new_h:
+        if new_h >= max(later):
+          sight+=1
       else:
         sight+=1
         break
